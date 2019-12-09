@@ -7,7 +7,9 @@ var Dad = Dad.fontcolor("blue");
 var Mom = Mom.fontcolor("purple");
 var Daughter_1 = Daughter_1.fontcolor("orange");
 var Daughter_2 = Daughter_2.fontcolor("grey");
-
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date()
+}
 
 window.alert("I like turtles");
 
