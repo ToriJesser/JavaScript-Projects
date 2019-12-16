@@ -26,7 +26,7 @@ function for_Loop() {
 
 var games = ["Borderlands", "Diablo 3", "Smash Bros", "Crawl", "Moonhunters", "Code Vein",];
 function random_function() {
-    document.getElementById("random").innerHTML = games[Math.floor(Math.random() * games.length)];
+    document.getElementById("random").innerHTML = games[Math.floor(Math.random() * games.length)]; // calls on random variable from array
 }
 
 function constant_function() {
