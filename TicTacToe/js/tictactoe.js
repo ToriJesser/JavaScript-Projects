@@ -418,7 +418,7 @@ function checkWinCon2(info,squareArray) {
             var match3Avatar = info[i].charAt(1); // only interested in recording the avatar
         }
         if (info[i].charAt(0) == "4") {
-            var mactch4Avatar = info[i].charAt(1);
+            var match4Avatar = info[i].charAt(1);
         }
         if (info[i].charAt(0) == "5") {
             var match5Avatar = info[i].charAt(1);
@@ -582,7 +582,7 @@ function square1Animate() {
         if (verdict == undefined) { // if verdict is empty than the square is unoccupied.
             var paintAvatar = determineAvatar(); // get the correct avatar to paint for the active player
             var selected = document.getElementsByClassName(paintAvatar)[0];// paint avatar
-            if (paintAvatar == "0") {// change these all to ternary satetments instead
+            if (paintAvatar == "O") {// change these all to ternary satetments instead
                 animateO(selected); // call function to animate O
             } else if (paintAvatar == "X") {
                 animateX(selected); // call function to animate X
