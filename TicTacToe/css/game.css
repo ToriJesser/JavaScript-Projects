@@ -27,7 +27,7 @@ body {
     text-align: center;
     color: darkblue;
     font-weight: bold;
-    font-family:sans-serf;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 45px;
 }
 
@@ -77,18 +77,17 @@ table tr:nth-child(3) td:nth-child(1) {
 .O {
     transition: transform .3s;
     opacity: 1;
-    position: absolute;
     background-image: url("../images/avatarO.png");
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     transform: translateY(-100%);
 }
 .X {
     transition: transform .3s;
     opacity: 1;
     background-image: url("../images/avatarX.png");
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
     transform: translateY(100%);
 }
 
@@ -151,7 +150,7 @@ table tr:nth-child(3) td:nth-child(1) {
     border-radius: 10px;
 }
 
-.controls {
+#controls {
     width: 200px;
     float: center;
     margin: 0 auto;
@@ -197,7 +196,7 @@ table tr:nth-child(3) td:nth-child(1) {
     display: none;
     font-size: 10px;
     margin: 10px auto;
-    float:left;
+    float: left;
 }
 
 #btnStart {
@@ -211,17 +210,17 @@ table tr:nth-child(3) td:nth-child(1) {
     background-color: rgb(57, 230, 0);
     margin: 20px 0px 0px 25px;
     padding: 12px 14px 12px 14px;
-    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.95), 3px 3px 15px -4px rgba(0,0,0,0.95);
+    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.95), 3px 3px 15px -4px rgba(0,0,0,0.85);
     border-radius: 10px;
 }
 
 #btnStart:hover {
-    border: 2px Solid rgb(19, 77, 0);
+    border: 2px solid rgb(19, 77, 0);
     background-color: rgb(0, 204, 0);
     box-shadow: inset 3px 3px 15px -2px rgba(0,0,0,0.65);
     transition-property: background box-shadow;
     transition: 0.2s;
-    transition-timing-function: eas-in-out; 
+    transition-timing-function: ease-in-out; 
 }
 
 #btnStop {
@@ -230,12 +229,12 @@ table tr:nth-child(3) td:nth-child(1) {
     font-size: 1em;
     font-weight: bold;
     color: #fff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     border: 2px solid rgb(204, 0, 0);
-    background-color: rgb(255, 51, 51);
+    background-color: rgb(255, 52, 52);
     margin: 20px 0px 0px 10px;
     padding: 12px 14px 12px 14px;
-    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.95, ), 3px 3px 15px -4px rgba(0,0,0,0.95);
+    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.95, ), 3px 3px 15px -4px rgba(0,0,0,0.85);
     border-radius: 10px;
 }
 
