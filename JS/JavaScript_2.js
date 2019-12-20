@@ -9,5 +9,10 @@ function validateForm() {
         alert("Name must be filled out");
         return false;
     }
+    var z = document.forms["myForms"]["phonenumber"].value;
+    if (z == "") {
+        alert("Phone Number must be filled out");
+        return false
+    })
 }
 

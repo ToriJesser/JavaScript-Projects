@@ -7,6 +7,8 @@
         <link rel="stylesheet" type="text/css" href="Pizza_CSS/Pizza.css">
     </head>
     <body>
+        <script>document.body.className = 'fade';</script>
+        
         <div id="menuBG">
             <h1 style="margin:0 0px 0 20px;">Pizza Drill Tutorial</h1>
             <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
@@ -49,8 +51,13 @@
 
             </form>
         </div>
-
+        <script>
+            document.addEventListener("DOMContentLoaded", function(e) {
+                document.body.className='';
+            });
+        </script>
         <script src="Pizza_JavaScript/Pizza.js"></script>
 
+    
     </body>
 </html>
